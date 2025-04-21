@@ -25,8 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+      
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <p className="m-[18px] text-[18px] weight font-medium">nakam-app</p>
         {children}
       </body>
     </html>
