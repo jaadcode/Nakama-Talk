@@ -26,9 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <body
       
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}
       >
-        <p className="m-[18px] text-[18px] weight font-medium">nakam-app</p>
+        <p className="mt-[18px] ml-[18px] text-[18px] weight font-medium">nakam-app</p>
         {children}
       </body>
     </html>
